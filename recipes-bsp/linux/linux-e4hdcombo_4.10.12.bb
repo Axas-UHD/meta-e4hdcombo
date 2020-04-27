@@ -21,7 +21,7 @@ PKG_kernel-image = "kernel-image"
 RPROVIDES_kernel-base = "kernel-${KERNEL_VERSION}"
 RPROVIDES_kernel-image = "kernel-image-${KERNEL_VERSION}"
 
-SRC_URI += "http://222.239.254.238/e4hdcombo/linux/linux-${PV}-${ARCH}.tgz \
+SRC_URI += "http://121.143.3.35/e4hdcombo/linux/linux-${PV}-${ARCH}.tgz \
     file://defconfig \
     file://TBS-fixes-for-4.10-kernel.patch \
     file://0001-Support-TBS-USB-drivers-for-4.6-kernel.patch \
